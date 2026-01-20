@@ -4,6 +4,7 @@
 (google.com)
 
 ## A Record
+Command used:
 dig google.com A
 google.com.             191     IN      A       142.250.140.138
 google.com.             191     IN      A       142.250.140.113
