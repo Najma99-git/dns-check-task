@@ -4,14 +4,15 @@
 (google.com)
 
 ## A Record
-Command used:
+Command used: 
 dig google.com A
-google.com.             191     IN      A       142.250.140.138
-google.com.             191     IN      A       142.250.140.113
-google.com.             191     IN      A       142.250.140.100
-google.com.             191     IN      A       142.250.140.101
-google.com.             191     IN      A       142.250.140.139
-google.com.             191     IN      A       142.250.140.102
+
+google.com.    186     IN      A       142.250.117.138
+google.com.    186     IN      A       142.250.117.101
+google.com.    186     IN      A       142.250.117.102
+google.com.    186     IN      A       142.250.117.113
+google.com.    186     IN      A       142.250.117.139
+google.com.    186     IN      A       142.250.117.100
 ## MX Record
 Command used:
 ;; ANSWER SECTION:
