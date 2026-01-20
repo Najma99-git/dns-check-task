@@ -7,40 +7,25 @@
 Command used: 
 dig google.com A
 
-google.com.    186     IN      A       142.250.117.138
-google.com.    186     IN      A       142.250.117.101
-google.com.    186     IN      A       142.250.117.102
-google.com.    186     IN      A       142.250.117.113
-google.com.    186     IN      A       142.250.117.139
-google.com.    186     IN      A       142.250.117.100
+```text
+google.com. 186 IN A 142.250.117.138
+google.com. 186 IN A 142.250.117.101
+google.com. 186 IN A 142.250.117.102
+google.com. 186 IN A 142.250.117.113
+google.com. 186 IN A 142.250.117.139
+google.com. 186 IN A 142.250.117.100
+
 ## MX Record
 Command used:
-;; ANSWER SECTION:
-gmail.com.              2171    IN      MX      40 alt4.gmail-smtp-in.l.google.com.
-gmail.com.              2171    IN      MX      5 gmail-smtp-in.l.google.com.
-gmail.com.              2171    IN      MX      10 alt1.gmail-smtp-in.l.google.com.
-gmail.com.              2171    IN      MX      30 alt3.gmail-smtp-in.l.google.com.
-gmail.com.              2171    IN      MX      20 alt2.gmail-smtp-in.l.google.com.
+dig google.com MX
+```text
+google.com.  300   IN   MX    10 smtp.google.com.
+
 ## NS Record
 Command used:
-Non-authoritative answer:
-Name:   google.com
-Address: 142.251.30.100
-Name:   google.com
-Address: 142.251.30.138
-Name:   google.com
-Address: 142.251.30.139
-Name:   google.com
-Address: 142.251.30.102
-Name:   google.com
-Address: 142.251.30.101
-Name:   google.com
-Address: 142.251.30.113
-Name:   google.com
-Address: 2a00:1450:4009:c04::65
-Name:   google.com
-Address: 2a00:1450:4009:c04::64
-Name:   google.com
-Address: 2a00:1450:4009:c04::8b
-Name:   google.com
-Address: 2a00:1450:4009:c04::8a
+dig google.com NS
+```text
+google.com.     61343   IN      NS      ns2.google.com.
+google.com.     61343   IN      NS      ns3.google.com.
+google.com.     61343   IN      NS      ns1.google.com.
+google.com.     61343   IN      NS      ns4.google.com.
